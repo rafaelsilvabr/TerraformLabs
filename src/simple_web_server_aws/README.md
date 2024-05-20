@@ -1,0 +1,2 @@
+# Simple Web Server on AWS
+To run this module, you need to have Terraform installed and configured with your AWS credentials. You also need to have an SSH key pair without a passphrase, with the public key located at ~/.ssh/id_rsa.pub on your local machine. This key pair is used for SSH access to the created EC2 instance.  To configure AWS CLI access, you need to install the AWS CLI and run aws configure, then follow the prompts to input your AWS Access Key ID, Secret Access Key, default region name, and default output format.
